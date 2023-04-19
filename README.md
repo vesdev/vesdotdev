@@ -2,7 +2,7 @@
 
 ## Developing
 
-Once you've installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies with `pnpm install'/'npm install`, start a development server:
 
 ```bash
 pnpm run dev
