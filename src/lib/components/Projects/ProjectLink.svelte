@@ -8,7 +8,7 @@
 </script>
 
 <a href={project.url}>
-    <button style="width: {w}; height: {h}">
+    <button style="width: {w}; height: {h};">
         project page
 
         <Fa icon={faLink} />
@@ -17,9 +17,8 @@
 
 <style>
     button {
-        background-color: #09f7a080;
+        background-color: rgb(26, 66, 51);
         border: none;
-        border-color: #09f7a080;
         border-radius: 8px;
         color: #bbbbbb;
         padding: 8px;
@@ -35,7 +34,7 @@
     }
 
     button:hover {
-        background-color: #27d797b3;
+        background-color: #1ea976;
         transition: 0.1s;
     }
 </style>

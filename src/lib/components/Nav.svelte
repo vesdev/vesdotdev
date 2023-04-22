@@ -1,8 +1,11 @@
 <header>
-    <h1 class="title">ves</h1>
     <div class="tabs">
         <div class="tab focused">
             <h1>projects</h1>
+            <div class="underline" />
+        </div>
+        <div class="tab">
+            <h1>muzik?</h1>
             <div class="underline" />
         </div>
         <div class="tab">
@@ -14,10 +17,8 @@
 
 <style>
     header {
-        border-top-left-radius: 8px;
-        border-top-right-radius: 8px;
         width: 100%;
-        background-color: #232530;
+        background-color: #1c1e26;
         user-select: none;
     }
 
@@ -27,16 +28,6 @@
         font-family: "Barlow-Light";
         font-size: 1.5rem;
         margin: 0;
-    }
-
-    .title {
-        position: absolute;
-        margin-left: 10px;
-        margin-top: 5px;
-        color: #f09483e6;
-        text-align: left;
-        font-family: "Barlow";
-        font-size: 1.25rem;
     }
 
     .tabs {
