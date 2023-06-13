@@ -18,7 +18,7 @@
         color: #e95678;
         text-align: center;
         font-family: "Barlow-Light";
-        font-size: 1.5rem;
+        font-size: 1.75rem;
         margin: 0;
     }
 
