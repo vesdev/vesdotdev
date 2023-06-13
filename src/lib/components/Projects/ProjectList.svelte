@@ -11,9 +11,9 @@
     import ProjectLink from "./ProjectLink.svelte";
 
     export let projects: Array<Project> = [
-        projectGithub("rlox", "vesdev/rlox/master"),
-        projectGithub("pagbar", "vesdev/pagbar/master"),
-        projectGithub("ves.dev", "vesdev/vesdev/master"),
+        projectGithub("rlox", "vesdev/rlox"),
+        projectGithub("pagbar", "vesdev/pagbar"),
+        projectGithub("ves.dev", "vesdev/vesdev"),
     ];
 
     let focusedProject: Project | undefined = undefined;
