@@ -4,14 +4,6 @@
             <h1>projects</h1>
             <div class="underline" />
         </div>
-        <div class="tab">
-            <h1>muzik?</h1>
-            <div class="underline" />
-        </div>
-        <div class="tab">
-            <h1>about</h1>
-            <div class="underline" />
-        </div>
     </div>
 </header>
 
@@ -34,6 +26,7 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        overflow: hidden;
     }
 
     .tab {

@@ -11,17 +11,9 @@
     import ProjectLink from "./ProjectLink.svelte";
 
     export let projects: Array<Project> = [
-        projectGithub("ves.dev", "soves/vesdev/master"),
-        projectGithub("rlox", "soves/rlox/master"),
-        projectGithub(
-            "musawarah (WideHardo yoinked for testing)",
-            "/BKSalman/musawarah/master"
-        ),
-        projectGithub(
-            "hebi (WideHardo yoinked for testing)",
-            "jprochazk/hebi/master"
-        ),
-        projectGithub("shuttle (yoink)", "shuttle-hq/shuttle/master"),
+        projectGithub("rlox", "vesdev/rlox/master"),
+        projectGithub("pagbar", "vesdev/pagbar/master"),
+        projectGithub("ves.dev", "vesdev/vesdev/master"),
     ];
 
     let focusedProject: Project | undefined = undefined;
@@ -55,7 +47,7 @@
     </ul>
     {#if focusedProject !== undefined}
         <div class="tray" id="description" transition:slide>
-            <ProjectLink project={focusedProject} w="140px" h="35px" />
+            <ProjectLink project={focusedProject} w="200px" h="35px" />
         </div>
     {/if}
     {#if focusedProject !== undefined}
@@ -73,13 +65,14 @@
         padding: 0;
         margin: 0;
 
-        background-color: #161920;
+        background-color: #16161c;
         margin-bottom: 10px;
     }
     .item {
         background-color: #1c1e26;
         padding: 8px;
         margin-top: 10px;
+        overflow: hidden;
     }
 
     .item:hover {

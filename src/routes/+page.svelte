@@ -7,7 +7,7 @@
 <main>
     <div class="banner-area">
         <div class="banner">
-            <img src="/Images/pfp.jpg" alt="" />
+            <img src="/Images/vesdev.png" alt="" />
         </div>
     </div>
     <div class="page-background">
@@ -21,7 +21,7 @@
     main {
         width: 100%;
         height: 100%;
-        background-color: #161920;
+        background-color: #16161c;
     }
 
     .banner-area {
@@ -33,7 +33,7 @@
     .page {
         width: 90%;
         max-width: 1000px;
-        background-color: #161920;
+        background-color: #16161c;
     }
 
     .page-background {
@@ -41,7 +41,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        background-color: #161920;
+        background-color: #16161c;
     }
 
     .banner {
@@ -58,12 +58,13 @@
 
         background-size: cover;
         background-position: center;
-        background-image: url("/Images/banner.jpg");
+        background-color: #1c1e26;
     }
 
     .banner img {
-        width: 100px;
-        height: 100px;
+        width: 100%;
+
+        max-width: 200px;
         border-radius: 100%;
         object-fit: cover;
     }

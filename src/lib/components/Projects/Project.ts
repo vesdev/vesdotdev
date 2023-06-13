@@ -9,8 +9,6 @@ export interface Project {
     url: string;
 }
 
-
-
 export function projectGithub(
     title: string,
     path: string
